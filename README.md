@@ -25,8 +25,6 @@
 ![image](https://user-images.githubusercontent.com/93520535/176809973-3c15a913-7cde-4069-864b-1783eb509426.png)
 
 해당 기능은 
-
-![image](https://user-images.githubusercontent.com/93520535/176810002-624f3017-5108-485c-9b47-cbed3b633300.png)
 ![image](https://user-images.githubusercontent.com/93520535/176810042-c1a2ef2d-1c9d-4ffb-8570-53d7f5dd15b2.png)
 
 의 코드로 작성 하였습니다.
