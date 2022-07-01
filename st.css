@@ -1,0 +1,217 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.hi{
+    text-align: left;
+    text-size-adjust: 200%;
+}
+    h2{
+        text-align: center;
+    }
+    body {
+        margin: 0;
+    }
+  .linear_gradient {
+      width: 2700px;
+      height: 1000px;
+      background: linear-gradient(#FF0000,#9A2EFE);
+  }
+
+li {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+    }
+a{
+    color: inherit;
+    text-decoration: none;
+}   
+.sub {
+	position: absolute;
+	width: 150px;    
+	background-color: #aabbdd;
+	display: none;
+	z-index: 1;
+}
+
+.sub li:hover {
+	background-color: #ddbbaa;    
+    }
+
+    .main-menu li{
+
+        float: left;
+        width: 300px;
+        text-align: center;   
+        color: white;
+    } 
+    
+    .main-menu li:hover{
+        color:blueviolet;
+        background-color: white;
+       
+    }
+    .sub {
+        position: absolute;
+        width: 150px;    
+        background-color: #aabbdd;
+        display: none;
+        z-index: 1;
+    }
+
+    .hi{
+        position : relative;
+        display : inline-block;
+      }
+
+      .main-menu{
+        color: white;
+        position : relative;
+        display : inline-block;
+      }
+      
+      sub{
+        display : none;
+        position : absolute;
+        z-index : 1;
+      }
+
+
+
+      ul{
+        list-style:none;
+        
+
+    }
+
+      a{
+        text-decoration:none; color:#333;
+    }
+
+      .menu:after{
+        display:block; content:''; clear:both;
+    }
+     .menu{
+      margin-left: 970px;
+     }
+      .menu > li{
+        position:relative; float:left; margin-right:5px;
+        margin-right: 100px;
+        margin-top: 550px;
+    }
+
+      .menu > li > a{
+        display:block; padding:0 15px; background:white; height:40px; line-height:40px; color:black;
+        margin-top: 25px;
+        
+    }
+
+      .menu > li:hover .depth_1 {
+        display:block;
+    }
+
+      .menu .depth_1{
+        display:none; position:absolute; left:0; right:0; text-align:center;
+    }
+
+      .menu .depth_1 a{
+        display:block; padding:5px; background:purple; color:#fff;
+    }
+
+    h1 {
+      font-size: 20px;
+      min-width:11px;
+      white-space: nowrap;
+      margin: 0;
+      position: fixed;
+      color: transparent;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    h1::before {
+      content: "보안관련 사이트에 오신것을 환영합니다.\n";
+      position: absolute;
+      top: 0;
+      left: 0;
+ 
+      color: white;
+      overflow: hidden;
+      border-right: 1px solid black;
+      animation: typing 5s steps(31) infinite;
+    }
+    
+    @keyframes typing{
+      0% {
+        width: 0%;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0%;
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+  }
+  .card {
+      position: absolute;
+      top: 50%;
+      left: 150px;
+      transform: translate(-50%,-50%);
+      width: 300px;
+      height: 1000px;
+      background: #262626;
+      overflow: hidden;
+      margin-top: -10px;
+  }
+  .card .imgBx,
+  .card .details {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      box-sizing: border-box;
+      transition: .5s;
+  }
+  .card .imgBx {
+      top: 0;
+      left: 0;
+  }
+  .card:hover .imgBx {
+      top: 0;
+      left: -100%;
+  }
+  .card .imgBx img {
+      width: 100%;
+  }
+  .card .details {
+      background: #262626;
+      top: 0;
+      left: 100%;
+      padding: 60px 30px;
+  }
+  .card:hover .details {
+      top: 0;
+      left: 0%;
+  }
+  .card .details h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0 0 10px;
+      border-bottom: 2px solid #fff;
+  
+  }
+  .card .details p {
+      margin: 20px 0 0;
+      color: #fff;
+  }
+
